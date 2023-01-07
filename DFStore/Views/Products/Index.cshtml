@@ -1,0 +1,30 @@
+@{
+    ViewData["Title"] = "Products Page";
+}
+
+<h1>Product Add</h1>
+<hr/>
+<div class="text-center">
+ <form  action="/Products/Postproducts">
+  <label for="id">productId:</label><br>
+  <input type="text" id="id" name="id" value="" required><br>
+  
+  <label for="title">title:</label><br>
+  <input type="text" id="title" name="title" ><br><br>
+  
+ <label for="brand">brand:</label><br>
+  <input type="text" id="brand" name="brand" ><br><br>
+
+ <label for="category">category:</label><br>
+  <input type="text" id="category" name="category" ><br><br>
+
+
+   <label for="price">price:</label><br>
+  <input type="text" id="price" name="price" ><br><br>
+
+  <label for="balance">balance:</label><br>
+  <input type="text" id="balance" name="balance" ><br><br>
+
+  <input type="submit" value="Submit">
+</form> 
+</div>
